@@ -1,0 +1,38 @@
+{
+  "name": "tailored-tunes",
+  "version": "1.0.0",
+  "dependencies": {
+    "jshint-stylish": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "glob": "*",
+    "grunt-appcache": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-css-metrics": "*",
+    "grunt-cssurlrev": "*",
+    "grunt-env": "*",
+    "grunt-file-creator": "*",
+    "grunt-hash": "*",
+    "grunt-lineending": "*",
+    "grunt-phpunit": "*",
+    "grunt-robots-txt": "0.3.0",
+    "grunt-scss-lint": "*",
+    "grunt-svgmin": "*",
+    "grunt-text-replace": "*",
+    "jshint-jenkins-checkstyle-reporter": "*",
+    "load-grunt-tasks": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "scripts": {
+    "postinstall": "grunt hookmeup && git config core.autocrlf input"
+  }
+}
