@@ -16,18 +16,38 @@
   -ms-flex-flow: row wrap;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
+  flex-wrap: nowrap;
   font-family: 'Open Sans', Tahoma;
   font-size: 30px;
   font-weight: 700;
   height: 100px;
+  justify-content: space-between;
   text-transform: uppercase;
   width: inherit; }
 .header .logo-text {
   margin: 36px 0 0 20px; }
-.header .vertical-bar {
-  background-color: #2b414d;
+.header .vertical-bar-box {
+  flex-grow: 3;
+  height: inherit; }
+.header .vertical-bar-box .vertical-bar {
+  background-color: #cccccc;
+  display: inline-flex;
   height: 22px;
   margin: 48px 20px 0;
   width: 2px; }
+.header .vertical-bar-box .slogan-box {
+  color: #cccccc;
+  display: inline-block; }
+.header .vertical-bar-box .slogan {
+  font-size: 10px;
+  text-transform: uppercase; }
+.header .socialmedia-icons-box {
+  display: inherit;
+  height: inherit; }
+.header .socialmedia-icons-box .socialmedia-icon {
+  height: inherit;
+  margin-top: 41px; }
+.header .socialmedia-icons-box .margin-right {
+  margin-right: 15px; }
 
 /*# sourceMappingURL=main.css.map */

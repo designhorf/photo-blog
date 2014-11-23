@@ -18,10 +18,12 @@
 	-ms-flex-flow: row wrap;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
+	flex-wrap: nowrap;
 	font-family: 'Open Sans', Tahoma;
 	font-size: 30px;
 	font-weight: 700;
 	height: 100px;
+	justify-content: space-between;
 	text-transform: uppercase;
 	width: inherit;
 
@@ -29,10 +31,40 @@
 		margin: 36px 0 0 20px;
 	}
 
-	.vertical-bar {
-		background-color: #2b414d;
-		height: 22px;
-		margin: 48px 20px 0;
-		width: 2px;
+	.vertical-bar-box {
+		flex-grow: 3;
+		height: inherit;
+
+		.vertical-bar {
+			background-color: lighten(gray, 30%);
+			display: inline-flex;
+			height: 22px;
+			margin: 48px 20px 0;
+			width: 2px;
+		}
+
+		.slogan-box {
+			color: lighten(gray, 30%);
+			display: inline-block;
+		}
+
+		.slogan {
+			font-size: 10px;
+			text-transform: uppercase;
+		}
+	}
+
+	.socialmedia-icons-box {
+		display: inherit;
+		height: inherit;
+
+		.socialmedia-icon {
+			height: inherit;
+			margin-top: 41px;
+		}
+
+		.margin-right {
+			margin-right: 15px;
+		}
 	}
 }
