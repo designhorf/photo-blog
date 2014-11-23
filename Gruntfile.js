@@ -113,7 +113,7 @@ module.exports = function (grunt) {
 
     // Compile tasks
     grunt.registerTask('compile:css', ['clean:css', 'sass:compile'
-//      , 'copy:css'
+     , 'copy:css'
         , 'cssmin'
 //      , 'concat_css'
 //      , 'clean:compiled'
