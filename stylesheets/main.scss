@@ -1,3 +1,5 @@
+@import 'modules/breakpoints';
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,7 +8,16 @@
 .wrap {
 	font-family: 'Open Sans', Tahoma;
 	margin: 0 auto;
-	width: 1100px;
+	width: 300px;
+
+	@include mq($from: mobile, $to: desktop) {
+		width: 92%;
+	}
+
+	@include mq($from: desktop) {
+		max-width: 1200px;
+		width: 92%;
+	} 
 }
 
 .header {
@@ -26,7 +37,7 @@
 	justify-content: space-between;
 	margin-top: 40px;
 	text-transform: uppercase;
-	width: inherit;
+
 
 	.logo-text {
 		margin: 36px 0 0 20px;
@@ -72,9 +83,9 @@
 
 .horizontal-line {
 	background-color: lighten(gray, 40%);
+	border: 0;
 	height: 2px;
 	margin: 40px 0;
-	width: inherit;
 }
 
 .body {
@@ -82,12 +93,22 @@
 
 	.welcome {
 		color: #2b414d;
-		font-size: 28px;
 		margin: 0 auto 40px;
 		text-align: center;
 		width: 600px;
+
+		h1 {
+			font-size: 40px;
+		}
+
+		h3 {
+			font-weight: 100;
+		}
 	}
 
-	
+	.main-picture {
+		margin: 0 auto;
+		width: 960px;
+	}
 }
 
