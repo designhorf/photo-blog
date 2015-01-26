@@ -1,0 +1,23 @@
+@import 'modules/colours';
+
+%flex-default-style {
+	@include align-items(flex-start);
+	@include display-flex;
+	@include flex-direction(row);
+	@include flex-wrap(wrap);
+	@include justify-content(space-between);
+}
+
+%basic-navigation-style {
+	background-color: $default-darkgray;
+	color: $default-lightgray;
+	font-family: sans-serif;
+	position: fixed;
+	top: 0;
+}
+
+%focus {
+	border: 1px solid rgba(81, 203, 238, 1);
+	outline: none;
+	@include box-shadow(0 0 4px rgba(81, 203, 238, 1));
+}

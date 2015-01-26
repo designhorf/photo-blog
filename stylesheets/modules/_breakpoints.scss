@@ -1,0 +1,12 @@
+@import '_mq';
+
+$mq-responsive: true;
+$mq-breakpoints: (
+		(mobile 400px)
+		(tablet 640px)
+		(bigtablet 800px)
+  (desktop 1024px)
+  (Wdesktop 1233px)
+  (wide 1400px)
+  (Xwide 2560px)
+);
