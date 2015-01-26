@@ -14,6 +14,9 @@
     max-width: 1200px;
     width: 92%; } }
 
+.test {
+  display: none; }
+
 .header {
   color: #2b414d;
   display: -moz-flex;
