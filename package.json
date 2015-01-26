@@ -34,5 +34,8 @@
   },
   "scripts": {
     "postinstall": "grunt hookmeup && git config core.autocrlf input"
+  },
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.0.1"
   }
 }
