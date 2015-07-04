@@ -10,3 +10,9 @@ gulp.task('styles', function () {
     .pipe(gulp.dest('./assets/stylesheets/'));
 });
 
+//Watch
+gulp.task('watch', function () {
+  gulp.watch('stylesheets/**/*.scss', ['styles']);
+});
+
+
