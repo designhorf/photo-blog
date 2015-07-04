@@ -7,21 +7,6 @@ module.exports = function (grunt) {
     }
 
     grunt.initConfig({
-        compass: {                  // Task
-            dist: {                   // Target
-              options: {              // Target options
-                sassDir: 'stylesheets/**/*.scss',
-                cssDir: 'assets/stylesheets/**/*.css',
-                environment: 'production'
-              }
-            },
-            dev: {                    // Another target
-              options: {
-                sassDir: 'stylesheets/**/*.scss',
-                cssDir: 'assets/stylesheets/**/*.css'
-              }
-            }
-        },
         sass: {
             compile: {
                 files: [
@@ -101,7 +86,6 @@ module.exports = function (grunt) {
     })
 
     // Load the plugins
-    grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -133,7 +117,6 @@ module.exports = function (grunt) {
         'clean:css'
         ,'sass:compile'
         // ,'jshint'
-        ,'compass'
         ,'copy:css'
         , 'cssmin'
 //      , 'concat_css'
