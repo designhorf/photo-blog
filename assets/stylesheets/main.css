@@ -6,13 +6,13 @@
   font-family: 'Open Sans', Tahoma;
   margin: 0 auto;
   width: 300px; }
-@media all and (min-width: 25em) and (max-width: 63.99em) {
-  .wrap {
-    width: 92%; } }
-@media all and (min-width: 64em) {
-  .wrap {
-    max-width: 1200px;
-    width: 92%; } }
+  @media all and (min-width: 25em) and (max-width: 63.99em) {
+    .wrap {
+      width: 92%; } }
+  @media all and (min-width: 64em) {
+    .wrap {
+      max-width: 1200px;
+      width: 92%; } }
 
 .test {
   display: none; }
@@ -34,31 +34,31 @@
   justify-content: space-between;
   margin-top: 40px;
   text-transform: uppercase; }
-.header .logo-text {
-  margin: 36px 0 0 20px; }
-.header .vertical-bar-box {
-  flex-grow: 3;
-  height: inherit; }
-.header .vertical-bar-box .vertical-bar {
-  background-color: #cccccc;
-  display: inline-flex;
-  height: 22px;
-  margin: 48px 20px 0;
-  width: 2px; }
-.header .vertical-bar-box .slogan-box {
-  color: #cccccc;
-  display: inline-block; }
-.header .vertical-bar-box .slogan {
-  font-size: 10px;
-  text-transform: uppercase; }
-.header .socialmedia-icons-box {
-  display: inherit;
-  height: inherit; }
-.header .socialmedia-icons-box .socialmedia-icon {
-  height: inherit;
-  margin-top: 41px; }
-.header .socialmedia-icons-box .margin-right {
-  margin-right: 15px; }
+  .header .logo-text {
+    margin: 36px 0 0 20px; }
+  .header .vertical-bar-box {
+    flex-grow: 3;
+    height: inherit; }
+    .header .vertical-bar-box .vertical-bar {
+      background-color: #cccccc;
+      display: inline-flex;
+      height: 22px;
+      margin: 48px 20px 0;
+      width: 2px; }
+    .header .vertical-bar-box .slogan-box {
+      color: #cccccc;
+      display: inline-block; }
+    .header .vertical-bar-box .slogan {
+      font-size: 10px;
+      text-transform: uppercase; }
+  .header .socialmedia-icons-box {
+    display: inherit;
+    height: inherit; }
+    .header .socialmedia-icons-box .socialmedia-icon {
+      height: inherit;
+      margin-top: 41px; }
+    .header .socialmedia-icons-box .margin-right {
+      margin-right: 15px; }
 
 .horizontal-line {
   background-color: #e6e6e6;
@@ -68,15 +68,15 @@
 
 .body {
   width: inherit; }
-.body .welcome {
-  color: #2b414d;
-  margin: 0 auto 40px;
-  text-align: center;
-  width: 600px; }
-.body .welcome h1 {
-  font-size: 40px; }
-.body .welcome h3 {
-  font-weight: 100; }
-.body .main-picture {
-  margin: 0 auto;
-  width: 960px; }
+  .body .welcome {
+    color: #2b414d;
+    margin: 0 auto 40px;
+    text-align: center;
+    width: 600px; }
+    .body .welcome h1 {
+      font-size: 40px; }
+    .body .welcome h3 {
+      font-weight: 100; }
+  .body .main-picture {
+    margin: 0 auto;
+    width: 960px; }
